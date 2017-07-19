@@ -1,0 +1,13 @@
+[package]
+name = "http_server_09_tokio"
+version = "0.1.0"
+authors = ["Yusuke Sasaki <yusuke.sasaki.nuem@gmail.com>"]
+
+[dependencies]
+tokio-core = "*"
+tokio-proto = "*"
+tokio-service = "*"
+tokio-io = "*"
+futures = "*"
+bytes = "*"
+num_cpus = "*"
